@@ -1,0 +1,2034 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20213.21.0822.2038                               -->
+<workbook source-build='2021.3.0 (20213.21.0822.2038)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.AccessibleZoneTabOrder.true...AccessibleZoneTabOrder />
+    <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
+    <AutoCreateAndUpdateDSDPhoneLayouts />
+    <MapboxVectorStylesAndLayers />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SetMembershipControl />
+    <SheetIdentifierTracking />
+    <SortTagCleanup />
+    <WindowsPersistSimpleIdentifiers />
+    <WorksheetBackgroundTransparency />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <_.fcp.AnimationOnByDefault.false...style>
+    <_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule element='animation'>
+      <_.fcp.AnimationOnByDefault.false...format attr='animation-on' value='ao-on' />
+    </_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule>
+  </_.fcp.AnimationOnByDefault.false...style>
+  <datasources>
+    <datasource caption='1988.2016 (olympics 1988)' inline='true' name='federated.1anznpt16eu9py1atsqcu15lw6fp' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='olympics 1988' name='excel-direct.0ip34uv1wn5yku12pn6jz18gw5tt'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='C:/Users/ferralme/nss-data-analytics/projects/Prospective Data Dashboards/olympics 1988.xlsx' interpretationMode='0' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='excel-direct.0ip34uv1wn5yku12pn6jz18gw5tt' name='1988.2016' table='[&apos;1988#2016$&apos;]' type='table'>
+          <columns gridOrigin='A1:S10001:no:A1:S2147483647:0' header='yes' outcome='2'>
+            <column datatype='integer' name='ID' ordinal='0' />
+            <column datatype='string' name='Name' ordinal='1' />
+            <column datatype='string' name='Sex' ordinal='2' />
+            <column datatype='integer' name='Age' ordinal='3' />
+            <column datatype='integer' name='Height' ordinal='4' />
+            <column datatype='real' name='Weight' ordinal='5' />
+            <column datatype='string' name='Team' ordinal='6' />
+            <column datatype='string' name='NOC' ordinal='7' />
+            <column datatype='string' name='Games' ordinal='8' />
+            <column datatype='integer' name='Year' ordinal='9' />
+            <column datatype='string' name='Season' ordinal='10' />
+            <column datatype='string' name='City' ordinal='11' />
+            <column datatype='string' name='Sport' ordinal='12' />
+            <column datatype='string' name='Event' ordinal='13' />
+            <column datatype='string' name='Medal' ordinal='14' />
+            <column datatype='integer' name='Gold' ordinal='15' />
+            <column datatype='integer' name='Silver' ordinal='16' />
+            <column datatype='integer' name='Bronze' ordinal='17' />
+            <column datatype='integer' name='Total Medals' ordinal='18' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='excel-direct.0ip34uv1wn5yku12pn6jz18gw5tt' name='1988.2016' table='[&apos;1988#2016$&apos;]' type='table'>
+          <columns gridOrigin='A1:S10001:no:A1:S2147483647:0' header='yes' outcome='2'>
+            <column datatype='integer' name='ID' ordinal='0' />
+            <column datatype='string' name='Name' ordinal='1' />
+            <column datatype='string' name='Sex' ordinal='2' />
+            <column datatype='integer' name='Age' ordinal='3' />
+            <column datatype='integer' name='Height' ordinal='4' />
+            <column datatype='real' name='Weight' ordinal='5' />
+            <column datatype='string' name='Team' ordinal='6' />
+            <column datatype='string' name='NOC' ordinal='7' />
+            <column datatype='string' name='Games' ordinal='8' />
+            <column datatype='integer' name='Year' ordinal='9' />
+            <column datatype='string' name='Season' ordinal='10' />
+            <column datatype='string' name='City' ordinal='11' />
+            <column datatype='string' name='Sport' ordinal='12' />
+            <column datatype='string' name='Event' ordinal='13' />
+            <column datatype='string' name='Medal' ordinal='14' />
+            <column datatype='integer' name='Gold' ordinal='15' />
+            <column datatype='integer' name='Silver' ordinal='16' />
+            <column datatype='integer' name='Bronze' ordinal='17' />
+            <column datatype='integer' name='Total Medals' ordinal='18' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[1988.2016]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>1</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:S10001:no:A1:S2147483647:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>2</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ID</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[ID]</local-name>
+            <parent-name>[1988.2016]</parent-name>
+            <remote-alias>ID</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[1988.2016_956D31C595554834A8C8F365BB2D0FDD]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Name</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Name]</local-name>
+            <parent-name>[1988.2016]</parent-name>
+            <remote-alias>Name</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[1988.2016_956D31C595554834A8C8F365BB2D0FDD]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Sex</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Sex]</local-name>
+            <parent-name>[1988.2016]</parent-name>
+            <remote-alias>Sex</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[1988.2016_956D31C595554834A8C8F365BB2D0FDD]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Age</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Age]</local-name>
+            <parent-name>[1988.2016]</parent-name>
+            <remote-alias>Age</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[1988.2016_956D31C595554834A8C8F365BB2D0FDD]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Height</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Height]</local-name>
+            <parent-name>[1988.2016]</parent-name>
+            <remote-alias>Height</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[1988.2016_956D31C595554834A8C8F365BB2D0FDD]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Weight</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Weight]</local-name>
+            <parent-name>[1988.2016]</parent-name>
+            <remote-alias>Weight</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[1988.2016_956D31C595554834A8C8F365BB2D0FDD]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Team</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Team]</local-name>
+            <parent-name>[1988.2016]</parent-name>
+            <remote-alias>Team</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[1988.2016_956D31C595554834A8C8F365BB2D0FDD]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>NOC</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[NOC]</local-name>
+            <parent-name>[1988.2016]</parent-name>
+            <remote-alias>NOC</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[1988.2016_956D31C595554834A8C8F365BB2D0FDD]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Games</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Games]</local-name>
+            <parent-name>[1988.2016]</parent-name>
+            <remote-alias>Games</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[1988.2016_956D31C595554834A8C8F365BB2D0FDD]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Year</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Year]</local-name>
+            <parent-name>[1988.2016]</parent-name>
+            <remote-alias>Year</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[1988.2016_956D31C595554834A8C8F365BB2D0FDD]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Season</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Season]</local-name>
+            <parent-name>[1988.2016]</parent-name>
+            <remote-alias>Season</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[1988.2016_956D31C595554834A8C8F365BB2D0FDD]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>City</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[City]</local-name>
+            <parent-name>[1988.2016]</parent-name>
+            <remote-alias>City</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[1988.2016_956D31C595554834A8C8F365BB2D0FDD]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Sport</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Sport]</local-name>
+            <parent-name>[1988.2016]</parent-name>
+            <remote-alias>Sport</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[1988.2016_956D31C595554834A8C8F365BB2D0FDD]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Event</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Event]</local-name>
+            <parent-name>[1988.2016]</parent-name>
+            <remote-alias>Event</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[1988.2016_956D31C595554834A8C8F365BB2D0FDD]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Medal</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Medal]</local-name>
+            <parent-name>[1988.2016]</parent-name>
+            <remote-alias>Medal</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[1988.2016_956D31C595554834A8C8F365BB2D0FDD]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Gold</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Gold]</local-name>
+            <parent-name>[1988.2016]</parent-name>
+            <remote-alias>Gold</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[1988.2016_956D31C595554834A8C8F365BB2D0FDD]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Silver</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Silver]</local-name>
+            <parent-name>[1988.2016]</parent-name>
+            <remote-alias>Silver</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[1988.2016_956D31C595554834A8C8F365BB2D0FDD]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Bronze</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Bronze]</local-name>
+            <parent-name>[1988.2016]</parent-name>
+            <remote-alias>Bronze</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[1988.2016_956D31C595554834A8C8F365BB2D0FDD]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Total Medals</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Total Medals]</local-name>
+            <parent-name>[1988.2016]</parent-name>
+            <remote-alias>Total Medals</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[1988.2016_956D31C595554834A8C8F365BB2D0FDD]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column datatype='integer' name='[Bronze]' role='measure' type='quantitative' />
+      <column caption='Highest Weight' datatype='real' name='[Calculation_43347164662407172]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='WINDOW_MAX(max([Weight]))'>
+          <table-calc ordering-type='Rows' />
+        </calculation>
+      </column>
+      <column caption='Lightest Weight' datatype='real' name='[Calculation_43347164663971845]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='WINDOW_MIN(min([Weight]))'>
+          <table-calc ordering-type='Rows' />
+        </calculation>
+      </column>
+      <column datatype='string' name='[City]' role='dimension' semantic-role='[City].[Name]' type='nominal' />
+      <column datatype='string' name='[Event]' role='dimension' type='nominal'>
+        <aliases>
+          <alias key='&quot;Basketball Men&apos;s Basketball&quot;' value='Men&apos;s Basketball' />
+          <alias key='&quot;Football Men&apos;s Football&quot;' value='Men&apos;s Football' />
+          <alias key='&quot;Football Women&apos;s Football&quot;' value=' Women&apos;s Football' />
+          <alias key='&quot;Handball Men&apos;s Handball&quot;' value=' Men&apos;s Handball' />
+          <alias key='&quot;Handball Women&apos;s Handball&quot;' value='Women&apos;s Handball' />
+          <alias key='&quot;Hockey Men&apos;s Hockey&quot;' value='Field Hockey Men&apos;s' />
+          <alias key='&quot;Hockey Women&apos;s Hockey&quot;' value=' Women&apos;s Hockey' />
+          <alias key='&quot;Ice Hockey Men&apos;s Ice Hockey&quot;' value='Ice Hockey Men&apos;s' />
+          <alias key='&quot;Ice Hockey Women&apos;s Ice Hockey&quot;' value='Women&apos;s Ice Hockey' />
+          <alias key='&quot;Volleyball Men&apos;s Volleyball&quot;' value='Men&apos;s Volleyball' />
+          <alias key='&quot;Water Polo Men&apos;s Water Polo&quot;' value=' Men&apos;s Water Polo' />
+        </aliases>
+      </column>
+      <column datatype='integer' name='[Gold]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[ID]' role='dimension' type='ordinal' />
+      <column datatype='integer' name='[Silver]' role='measure' type='quantitative' />
+      <column datatype='string' name='[Team]' role='dimension' semantic-role='[Country].[Name]' type='nominal' />
+      <column aggregation='CountD' datatype='real' name='[Weight]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[Year]' role='dimension' type='quantitative' />
+      <_.fcp.ObjectModelTableType.true...column caption='1988.2016' datatype='table' name='[__tableau_internal_object_id__].[1988.2016_956D31C595554834A8C8F365BB2D0FDD]' role='measure' type='quantitative' />
+      <column-instance column='[Bronze]' derivation='Sum' name='[sum:Bronze:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Gold]' derivation='Sum' name='[sum:Gold:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Silver]' derivation='Sum' name='[sum:Silver:qk]' pivot='key' type='quantitative' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' rowDisplayCount='100' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[:Measure Names]' type='palette'>
+            <map to='#bab0ac'>
+              <bucket>&quot;[federated.1anznpt16eu9py1atsqcu15lw6fp].[sum:Silver:qk]&quot;</bucket>
+            </map>
+            <map to='#edc948'>
+              <bucket>&quot;[federated.1anznpt16eu9py1atsqcu15lw6fp].[sum:Gold:qk]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.1anznpt16eu9py1atsqcu15lw6fp].[sum:Bronze:qk]&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+      <field-sort-info field-sort-order-type='alphabetical-order' />
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='1988.2016' id='1988.2016_956D31C595554834A8C8F365BB2D0FDD'>
+            <properties context=''>
+              <relation connection='excel-direct.0ip34uv1wn5yku12pn6jz18gw5tt' name='1988.2016' table='[&apos;1988#2016$&apos;]' type='table'>
+                <columns gridOrigin='A1:S10001:no:A1:S2147483647:0' header='yes' outcome='2'>
+                  <column datatype='integer' name='ID' ordinal='0' />
+                  <column datatype='string' name='Name' ordinal='1' />
+                  <column datatype='string' name='Sex' ordinal='2' />
+                  <column datatype='integer' name='Age' ordinal='3' />
+                  <column datatype='integer' name='Height' ordinal='4' />
+                  <column datatype='real' name='Weight' ordinal='5' />
+                  <column datatype='string' name='Team' ordinal='6' />
+                  <column datatype='string' name='NOC' ordinal='7' />
+                  <column datatype='string' name='Games' ordinal='8' />
+                  <column datatype='integer' name='Year' ordinal='9' />
+                  <column datatype='string' name='Season' ordinal='10' />
+                  <column datatype='string' name='City' ordinal='11' />
+                  <column datatype='string' name='Sport' ordinal='12' />
+                  <column datatype='string' name='Event' ordinal='13' />
+                  <column datatype='string' name='Medal' ordinal='14' />
+                  <column datatype='integer' name='Gold' ordinal='15' />
+                  <column datatype='integer' name='Silver' ordinal='16' />
+                  <column datatype='integer' name='Bronze' ordinal='17' />
+                  <column datatype='integer' name='Total Medals' ordinal='18' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <mapsources>
+    <mapsource name='Tableau' />
+  </mapsources>
+  <actions>
+    <action caption='Hyperlink1' name='[Action1_5A3010B4343C4DAD948242837C630068]'>
+      <source datasource='federated.1anznpt16eu9py1atsqcu15lw6fp' type='datasource' />
+      <link caption='' expression='https://www.kaggle.com/heesoo37/120-years-of-olympic-history-athletes-and-results' />
+    </action>
+  </actions>
+  <worksheets>
+    <worksheet name='Bottom 10 Athlete Count by Event'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='1988.2016 (olympics 1988)' name='federated.1anznpt16eu9py1atsqcu15lw6fp' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1anznpt16eu9py1atsqcu15lw6fp'>
+            <_.fcp.ObjectModelTableType.false...column caption='1988.2016' datatype='integer' name='[__tableau_internal_object_id__].[1988.2016_956D31C595554834A8C8F365BB2D0FDD]' role='measure' type='quantitative' />
+            <column datatype='string' name='[Event]' role='dimension' type='nominal'>
+              <aliases>
+                <alias key='&quot;Basketball Men&apos;s Basketball&quot;' value='Men&apos;s Basketball' />
+                <alias key='&quot;Football Men&apos;s Football&quot;' value='Men&apos;s Football' />
+                <alias key='&quot;Football Women&apos;s Football&quot;' value=' Women&apos;s Football' />
+                <alias key='&quot;Handball Men&apos;s Handball&quot;' value=' Men&apos;s Handball' />
+                <alias key='&quot;Handball Women&apos;s Handball&quot;' value='Women&apos;s Handball' />
+                <alias key='&quot;Hockey Men&apos;s Hockey&quot;' value='Field Hockey Men&apos;s' />
+                <alias key='&quot;Hockey Women&apos;s Hockey&quot;' value=' Women&apos;s Hockey' />
+                <alias key='&quot;Ice Hockey Men&apos;s Ice Hockey&quot;' value='Ice Hockey Men&apos;s' />
+                <alias key='&quot;Ice Hockey Women&apos;s Ice Hockey&quot;' value='Women&apos;s Ice Hockey' />
+                <alias key='&quot;Volleyball Men&apos;s Volleyball&quot;' value='Men&apos;s Volleyball' />
+                <alias key='&quot;Water Polo Men&apos;s Water Polo&quot;' value=' Men&apos;s Water Polo' />
+              </aliases>
+            </column>
+            <_.fcp.ObjectModelTableType.true...column caption='1988.2016' datatype='table' name='[__tableau_internal_object_id__].[1988.2016_956D31C595554834A8C8F365BB2D0FDD]' role='measure' type='quantitative' />
+            <column-instance column='[__tableau_internal_object_id__].[1988.2016_956D31C595554834A8C8F365BB2D0FDD]' derivation='Count' name='[__tableau_internal_object_id__].[cnt:1988.2016_956D31C595554834A8C8F365BB2D0FDD:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Event]' derivation='None' name='[none:Event:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1anznpt16eu9py1atsqcu15lw6fp].[none:Event:nk]'>
+            <groupfilter count='10' end='bottom' function='end' units='records' user:ui-marker='end' user:ui-top-by-field='true'>
+              <groupfilter direction='DESC' expression='COUNT([__tableau_internal_object_id__].[1988.2016_956D31C595554834A8C8F365BB2D0FDD])' function='order' user:ui-marker='order'>
+                <groupfilter function='level-members' level='[none:Event:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+              </groupfilter>
+            </groupfilter>
+          </filter>
+          <computed-sort column='[federated.1anznpt16eu9py1atsqcu15lw6fp].[none:Event:nk]' direction='ASC' using='[federated.1anznpt16eu9py1atsqcu15lw6fp].[__tableau_internal_object_id__].[cnt:1988.2016_956D31C595554834A8C8F365BB2D0FDD:qk]' />
+          <slices>
+            <column>[federated.1anznpt16eu9py1atsqcu15lw6fp].[none:Event:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='header'>
+            <format attr='width' field='[federated.1anznpt16eu9py1atsqcu15lw6fp].[none:Event:nk]' value='180' />
+            <format attr='font-size' data-class='subtotal' field='[federated.1anznpt16eu9py1atsqcu15lw6fp].[none:Event:nk]' value='6' />
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='font-size' value='6' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-color' value='#f28e2b' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.1anznpt16eu9py1atsqcu15lw6fp].[none:Event:nk]</rows>
+        <cols>[federated.1anznpt16eu9py1atsqcu15lw6fp].[__tableau_internal_object_id__].[cnt:1988.2016_956D31C595554834A8C8F365BB2D0FDD:qk]</cols>
+      </table>
+      <simple-id uuid='{59CE120A-6B7F-4372-8DF8-0B63730615E5}' />
+    </worksheet>
+    <worksheet name='Heaviest Weight'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='1988.2016 (olympics 1988)' name='federated.1anznpt16eu9py1atsqcu15lw6fp' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1anznpt16eu9py1atsqcu15lw6fp'>
+            <column caption='Highest Weight' datatype='real' name='[Calculation_43347164662407172]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='WINDOW_MAX(max([Weight]))'>
+                <table-calc ordering-type='Rows' />
+              </calculation>
+            </column>
+            <column caption='Lightest Weight' datatype='real' name='[Calculation_43347164663971845]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='WINDOW_MIN(min([Weight]))'>
+                <table-calc ordering-type='Rows' />
+              </calculation>
+            </column>
+            <column aggregation='CountD' datatype='real' name='[Weight]' role='measure' type='quantitative' />
+            <column-instance column='[Calculation_43347164662407172]' derivation='User' name='[usr:Calculation_43347164662407172:qk]' pivot='key' type='quantitative'>
+              <table-calc ordering-type='Rows' />
+            </column-instance>
+            <column-instance column='[Calculation_43347164663971845]' derivation='User' name='[usr:Calculation_43347164663971845:qk]' pivot='key' type='quantitative'>
+              <table-calc ordering-type='Rows' />
+            </column-instance>
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='text-align' value='center' />
+          </style-rule>
+          <style-rule element='pane'>
+            <format attr='border-color' value='#d4d4d4' />
+            <format attr='border-style' value='solid' />
+          </style-rule>
+          <style-rule element='table-div'>
+            <format attr='line-visibility' scope='rows' value='on' />
+            <format attr='line-pattern-only' scope='rows' value='solid' />
+            <format attr='stroke-color' scope='rows' value='#000000' />
+            <format attr='stroke-size' scope='rows' value='4' />
+            <format attr='line-visibility' scope='cols' value='on' />
+            <format attr='line-pattern-only' scope='cols' value='solid' />
+            <format attr='stroke-size' scope='cols' value='4' />
+            <format attr='stroke-color' scope='cols' value='#000000' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.1anznpt16eu9py1atsqcu15lw6fp].[usr:Calculation_43347164662407172:qk]' />
+            </encodings>
+            <customized-tooltip>
+              <formatted-text>
+                <run fontalignment='1' fontcolor='#787878'>Lightest Weight:&#9;</run>
+              </formatted-text>
+            </customized-tooltip>
+            <customized-label>
+              <formatted-text>
+                <run> Heaviest Weight by Olympian&#10;&lt;</run>
+                <run>[federated.1anznpt16eu9py1atsqcu15lw6fp].[usr:Calculation_43347164662407172:qk]</run>
+                <run>&gt; KG
+Ricardo Blas Jr- Guam
+Men&apos;s Judo Heavyweight
+</run>
+              </formatted-text>
+            </customized-label>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+        <mark-labels>
+          <mark-label id='0'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields />
+                  <y-fields />
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.1anznpt16eu9py1atsqcu15lw6fp].[usr:Calculation_43347164663971845:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>28.0</value>
+              </tuple>
+            </tuple-reference>
+            <label-position x='9' y='0.3' />
+          </mark-label>
+        </mark-labels>
+      </table>
+      <simple-id uuid='{8D1B9554-03F9-4DD6-A9AE-148697EAC32F}' />
+    </worksheet>
+    <worksheet name='Lightest Weight '>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='1988.2016 (olympics 1988)' name='federated.1anznpt16eu9py1atsqcu15lw6fp' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1anznpt16eu9py1atsqcu15lw6fp'>
+            <column caption='Lightest Weight' datatype='real' name='[Calculation_43347164663971845]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='WINDOW_MIN(min([Weight]))'>
+                <table-calc ordering-type='Rows' />
+              </calculation>
+            </column>
+            <column aggregation='CountD' datatype='real' name='[Weight]' role='measure' type='quantitative' />
+            <column-instance column='[Calculation_43347164663971845]' derivation='User' name='[usr:Calculation_43347164663971845:qk]' pivot='key' type='quantitative'>
+              <table-calc ordering-type='Rows' />
+            </column-instance>
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='text-align' value='center' />
+          </style-rule>
+          <style-rule element='pane'>
+            <format attr='border-color' value='#d4d4d4' />
+            <format attr='border-style' value='solid' />
+          </style-rule>
+          <style-rule element='table-div'>
+            <format attr='line-visibility' scope='rows' value='on' />
+            <format attr='line-pattern-only' scope='rows' value='solid' />
+            <format attr='stroke-color' scope='rows' value='#000000' />
+            <format attr='stroke-size' scope='rows' value='4' />
+            <format attr='line-visibility' scope='cols' value='on' />
+            <format attr='line-pattern-only' scope='cols' value='solid' />
+            <format attr='stroke-size' scope='cols' value='4' />
+            <format attr='stroke-color' scope='cols' value='#000000' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.1anznpt16eu9py1atsqcu15lw6fp].[usr:Calculation_43347164663971845:qk]' />
+            </encodings>
+            <customized-tooltip>
+              <formatted-text>
+                <run fontalignment='1' fontcolor='#787878'>Lightest Weight:&#9;</run>
+                <run bold='true' fontalignment='1'><![CDATA[<[federated.1anznpt16eu9py1atsqcu15lw6fp].[usr:Calculation_43347164663971845:qk]>]]></run>
+              </formatted-text>
+            </customized-tooltip>
+            <customized-label>
+              <formatted-text>
+                <run><![CDATA[Lightest Weight of an Olympian
+<]]></run>
+                <run>[federated.1anznpt16eu9py1atsqcu15lw6fp].[usr:Calculation_43347164663971845:qk]</run>
+                <run>&gt; KG
+Kana Yamawaki- Japan
+ Womens Gymnastics</run>
+              </formatted-text>
+            </customized-label>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+        <mark-labels>
+          <mark-label id='0'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields />
+                  <y-fields />
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.1anznpt16eu9py1atsqcu15lw6fp].[usr:Calculation_43347164663971845:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>28.0</value>
+              </tuple>
+            </tuple-reference>
+            <label-position x='9' y='0.3' />
+          </mark-label>
+        </mark-labels>
+      </table>
+      <simple-id uuid='{D134BD1D-CB4A-4EA5-BDE8-EEC0409C1D8D}' />
+    </worksheet>
+    <worksheet name='Male to Female Medal Count'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run fontalignment='1'>&lt;Sheet Name&gt;</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='1988.2016 (olympics 1988)' name='federated.1anznpt16eu9py1atsqcu15lw6fp' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1anznpt16eu9py1atsqcu15lw6fp'>
+            <column datatype='integer' name='[Bronze]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Gold]' role='measure' type='quantitative' />
+            <column datatype='string' name='[Sex]' role='dimension' type='nominal' />
+            <column datatype='integer' name='[Silver]' role='measure' type='quantitative' />
+            <column-instance column='[Sex]' derivation='None' name='[none:Sex:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Bronze]' derivation='Sum' name='[sum:Bronze:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Gold]' derivation='Sum' name='[sum:Gold:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Silver]' derivation='Sum' name='[sum:Silver:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1anznpt16eu9py1atsqcu15lw6fp].[:Measure Names]'>
+            <groupfilter function='union' user:op='manual'>
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1anznpt16eu9py1atsqcu15lw6fp].[sum:Bronze:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1anznpt16eu9py1atsqcu15lw6fp].[sum:Gold:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1anznpt16eu9py1atsqcu15lw6fp].[sum:Silver:qk]&quot;' />
+            </groupfilter>
+          </filter>
+          <manual-sort column='[federated.1anznpt16eu9py1atsqcu15lw6fp].[:Measure Names]' direction='ASC'>
+            <dictionary>
+              <bucket>&quot;[federated.1anznpt16eu9py1atsqcu15lw6fp].[sum:Gold:qk]&quot;</bucket>
+              <bucket>&quot;[federated.1anznpt16eu9py1atsqcu15lw6fp].[sum:Silver:qk]&quot;</bucket>
+              <bucket>&quot;[federated.1anznpt16eu9py1atsqcu15lw6fp].[sum:Bronze:qk]&quot;</bucket>
+            </dictionary>
+          </manual-sort>
+          <slices>
+            <column>[federated.1anznpt16eu9py1atsqcu15lw6fp].[:Measure Names]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' field='[federated.1anznpt16eu9py1atsqcu15lw6fp].[Multiple Values]' field-type='quantitative' range-type='independent' scope='rows' type='space' />
+          </style-rule>
+          <style-rule element='header'>
+            <format attr='height-header' value='17' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.1anznpt16eu9py1atsqcu15lw6fp].[:Measure Names]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.1anznpt16eu9py1atsqcu15lw6fp].[Multiple Values]</rows>
+        <cols>[federated.1anznpt16eu9py1atsqcu15lw6fp].[none:Sex:nk]</cols>
+      </table>
+      <simple-id uuid='{FCC1C802-24E3-4D6B-A6AF-7EA78C47E1F5}' />
+    </worksheet>
+    <worksheet name='Olympic Medals from 1988-2016'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run fontalignment='1'>&lt;Sheet Name&gt;&#10;</run>
+            <run auto-url='true' fontalignment='1' fontsize='8' hyperlink='tabdoc:load-url url=&amp;quot;https://www.kaggle.com/heesoo37/120-years-of-olympic-history-athletes-and-results&amp;quot;'>https://www.kaggle.com/heesoo37/120-years-of-olympic-history-athletes-and-results</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='1988.2016 (olympics 1988)' name='federated.1anznpt16eu9py1atsqcu15lw6fp' />
+          </datasources>
+          <mapsources>
+            <mapsource name='Tableau' />
+          </mapsources>
+          <datasource-dependencies datasource='federated.1anznpt16eu9py1atsqcu15lw6fp'>
+            <column datatype='integer' name='[Bronze]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Gold]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Silver]' role='measure' type='quantitative' />
+            <column datatype='string' name='[Team]' role='dimension' semantic-role='[Country].[Name]' type='nominal' />
+            <column datatype='integer' name='[Total Medals]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Year]' role='dimension' type='quantitative' />
+            <column-instance column='[Team]' derivation='None' name='[none:Team:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Year]' derivation='None' name='[none:Year:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Bronze]' derivation='Sum' name='[sum:Bronze:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Gold]' derivation='Sum' name='[sum:Gold:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Silver]' derivation='Sum' name='[sum:Silver:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Total Medals]' derivation='Sum' name='[sum:Total Medals:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='quantitative' column='[federated.1anznpt16eu9py1atsqcu15lw6fp].[none:Year:qk]' included-values='in-range'>
+            <min>1988</min>
+            <max>2016</max>
+          </filter>
+          <slices>
+            <column>[federated.1anznpt16eu9py1atsqcu15lw6fp].[none:Year:qk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' field='[federated.1anznpt16eu9py1atsqcu15lw6fp].[Longitude (generated)]' field-type='quantitative' max='23920606.380572192' min='-21637500.372346252' projection='EPSG:3857' range-type='fixed' scope='cols' type='space' />
+            <encoding attr='space' class='0' field='[federated.1anznpt16eu9py1atsqcu15lw6fp].[Latitude (generated)]' field-type='quantitative' max='15546330.524807397' min='-8052359.0406473083' projection='EPSG:3857' range-type='fixed' scope='rows' type='space' />
+          </style-rule>
+          <style-rule element='cell'>
+            <format attr='font-size' data-class='subtotal' scope='cols' value='6' />
+            <format attr='font-size' data-class='subtotal' field='[federated.1anznpt16eu9py1atsqcu15lw6fp].[sum:Total Medals:qk]' value='6' />
+            <format attr='font-size' data-class='total' field='[federated.1anznpt16eu9py1atsqcu15lw6fp].[sum:Total Medals:qk]' value='4' />
+          </style-rule>
+          <style-rule element='label'>
+            <format attr='font-size' scope='rows' value='5' />
+          </style-rule>
+          <style-rule element='mark'>
+            <encoding attr='color' field='[federated.1anznpt16eu9py1atsqcu15lw6fp].[sum:Total Medals:qk]' palette='red_gold_10_0' type='interpolated' />
+          </style-rule>
+          <style-rule element='table'>
+            <format attr='show-null-value-warning' value='false' />
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='font-size' value='5' />
+          </style-rule>
+          <style-rule element='table-div'>
+            <format attr='div-level' scope='rows' value='0' />
+          </style-rule>
+          <style-rule element='map'>
+            <format attr='washout' value='0.0' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Multipolygon' />
+            <encodings>
+              <color column='[federated.1anznpt16eu9py1atsqcu15lw6fp].[sum:Total Medals:qk]' />
+              <lod column='[federated.1anznpt16eu9py1atsqcu15lw6fp].[none:Team:nk]' />
+              <tooltip column='[federated.1anznpt16eu9py1atsqcu15lw6fp].[sum:Gold:qk]' />
+              <tooltip column='[federated.1anznpt16eu9py1atsqcu15lw6fp].[sum:Silver:qk]' />
+              <lod column='[federated.1anznpt16eu9py1atsqcu15lw6fp].[sum:Bronze:qk]' />
+              <geometry column='[federated.1anznpt16eu9py1atsqcu15lw6fp].[Geometry (generated)]' />
+            </encodings>
+            <customized-tooltip>
+              <formatted-text>
+                <run fontcolor='#787878'>Team:&#9;</run>
+                <run bold='true'><![CDATA[<[federated.1anznpt16eu9py1atsqcu15lw6fp].[none:Team:nk]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#787878'>Bronze:</run>
+                <run bold='true'><![CDATA[<[federated.1anznpt16eu9py1atsqcu15lw6fp].[sum:Bronze:qk]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#787878'>Silver:&#9;</run>
+                <run bold='true'><![CDATA[<[federated.1anznpt16eu9py1atsqcu15lw6fp].[sum:Silver:qk]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#787878'>Gold:&#9;</run>
+                <run bold='true'><![CDATA[<[federated.1anznpt16eu9py1atsqcu15lw6fp].[sum:Gold:qk]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#787878'>Total Medals:</run>
+                <run bold='true'><![CDATA[<[federated.1anznpt16eu9py1atsqcu15lw6fp].[sum:Total Medals:qk]>]]></run>
+              </formatted-text>
+            </customized-tooltip>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='false' />
+                <format attr='mark-transparency' value='132' />
+                <format attr='mark-color' value='#00ff00' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.1anznpt16eu9py1atsqcu15lw6fp].[Latitude (generated)]</rows>
+        <cols>[federated.1anznpt16eu9py1atsqcu15lw6fp].[Longitude (generated)]</cols>
+      </table>
+      <simple-id uuid='{AD492ACD-8447-43CA-937A-4381470EF479}' />
+    </worksheet>
+    <worksheet name='Sheet 12'>
+      <table>
+        <view>
+          <datasources />
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{BF426EBB-82ED-4C3F-802D-1D0FBA8C7EE9}' />
+    </worksheet>
+    <worksheet name='Top 10 Athlete Count by Event'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='1988.2016 (olympics 1988)' name='federated.1anznpt16eu9py1atsqcu15lw6fp' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1anznpt16eu9py1atsqcu15lw6fp'>
+            <_.fcp.ObjectModelTableType.false...column caption='1988.2016' datatype='integer' name='[__tableau_internal_object_id__].[1988.2016_956D31C595554834A8C8F365BB2D0FDD]' role='measure' type='quantitative' />
+            <column datatype='string' name='[Event]' role='dimension' type='nominal'>
+              <aliases>
+                <alias key='&quot;Basketball Men&apos;s Basketball&quot;' value='Men&apos;s Basketball' />
+                <alias key='&quot;Football Men&apos;s Football&quot;' value='Men&apos;s Football' />
+                <alias key='&quot;Football Women&apos;s Football&quot;' value=' Women&apos;s Football' />
+                <alias key='&quot;Handball Men&apos;s Handball&quot;' value=' Men&apos;s Handball' />
+                <alias key='&quot;Handball Women&apos;s Handball&quot;' value='Women&apos;s Handball' />
+                <alias key='&quot;Hockey Men&apos;s Hockey&quot;' value='Field Hockey Men&apos;s' />
+                <alias key='&quot;Hockey Women&apos;s Hockey&quot;' value=' Women&apos;s Hockey' />
+                <alias key='&quot;Ice Hockey Men&apos;s Ice Hockey&quot;' value='Ice Hockey Men&apos;s' />
+                <alias key='&quot;Ice Hockey Women&apos;s Ice Hockey&quot;' value='Women&apos;s Ice Hockey' />
+                <alias key='&quot;Volleyball Men&apos;s Volleyball&quot;' value='Men&apos;s Volleyball' />
+                <alias key='&quot;Water Polo Men&apos;s Water Polo&quot;' value=' Men&apos;s Water Polo' />
+              </aliases>
+            </column>
+            <_.fcp.ObjectModelTableType.true...column caption='1988.2016' datatype='table' name='[__tableau_internal_object_id__].[1988.2016_956D31C595554834A8C8F365BB2D0FDD]' role='measure' type='quantitative' />
+            <column-instance column='[__tableau_internal_object_id__].[1988.2016_956D31C595554834A8C8F365BB2D0FDD]' derivation='Count' name='[__tableau_internal_object_id__].[cnt:1988.2016_956D31C595554834A8C8F365BB2D0FDD:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Event]' derivation='None' name='[none:Event:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1anznpt16eu9py1atsqcu15lw6fp].[none:Event:nk]'>
+            <groupfilter count='10' end='top' function='end' units='records' user:ui-marker='end' user:ui-top-by-field='true'>
+              <groupfilter direction='DESC' expression='COUNT([__tableau_internal_object_id__].[1988.2016_956D31C595554834A8C8F365BB2D0FDD])' function='order' user:ui-marker='order'>
+                <groupfilter function='level-members' level='[none:Event:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+              </groupfilter>
+            </groupfilter>
+          </filter>
+          <computed-sort column='[federated.1anznpt16eu9py1atsqcu15lw6fp].[none:Event:nk]' direction='DESC' using='[federated.1anznpt16eu9py1atsqcu15lw6fp].[__tableau_internal_object_id__].[cnt:1988.2016_956D31C595554834A8C8F365BB2D0FDD:qk]' />
+          <slices>
+            <column>[federated.1anznpt16eu9py1atsqcu15lw6fp].[none:Event:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='header'>
+            <format attr='width' field='[federated.1anznpt16eu9py1atsqcu15lw6fp].[none:Event:nk]' value='180' />
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='font-size' value='6' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-color' value='#b6992d' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.1anznpt16eu9py1atsqcu15lw6fp].[none:Event:nk]</rows>
+        <cols>[federated.1anznpt16eu9py1atsqcu15lw6fp].[__tableau_internal_object_id__].[cnt:1988.2016_956D31C595554834A8C8F365BB2D0FDD:qk]</cols>
+      </table>
+      <simple-id uuid='{3F9B3D7B-45A1-40F2-91AC-D6D830FDE0E1}' />
+    </worksheet>
+    <worksheet name='Top 10 Bronze'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run fontalignment='1'>&lt;Sheet Name&gt;</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='1988.2016 (olympics 1988)' name='federated.1anznpt16eu9py1atsqcu15lw6fp' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1anznpt16eu9py1atsqcu15lw6fp'>
+            <column datatype='integer' name='[Bronze]' role='measure' type='quantitative' />
+            <column datatype='string' name='[Name]' role='dimension' type='nominal' />
+            <column-instance column='[Name]' derivation='None' name='[none:Name:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Bronze]' derivation='Sum' name='[sum:Bronze:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1anznpt16eu9py1atsqcu15lw6fp].[none:Name:nk]'>
+            <groupfilter count='10' end='top' function='end' units='records' user:ui-marker='end' user:ui-top-by-field='true'>
+              <groupfilter direction='DESC' expression='SUM([Bronze])' function='order' user:ui-marker='order'>
+                <groupfilter function='level-members' level='[none:Name:nk]' user:ui-manual-selection='true' user:ui-manual-selection-all-when-empty='true' user:ui-manual-selection-is-empty='true' user:ui-marker='enumerate' />
+              </groupfilter>
+            </groupfilter>
+          </filter>
+          <computed-sort column='[federated.1anznpt16eu9py1atsqcu15lw6fp].[none:Name:nk]' direction='DESC' using='[federated.1anznpt16eu9py1atsqcu15lw6fp].[sum:Bronze:qk]' />
+          <slices>
+            <column>[federated.1anznpt16eu9py1atsqcu15lw6fp].[none:Name:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='header'>
+            <format attr='width' field='[federated.1anznpt16eu9py1atsqcu15lw6fp].[none:Name:nk]' value='332' />
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='font-size' value='6' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-color' value='#f28e2b' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.1anznpt16eu9py1atsqcu15lw6fp].[sum:Bronze:qk]</rows>
+        <cols>[federated.1anznpt16eu9py1atsqcu15lw6fp].[none:Name:nk]</cols>
+      </table>
+      <simple-id uuid='{8B74C6C5-00CC-4250-AF03-FC711B974110}' />
+    </worksheet>
+    <worksheet name='Top 10 Countries by Medal Count'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='1988.2016 (olympics 1988)' name='federated.1anznpt16eu9py1atsqcu15lw6fp' />
+          </datasources>
+          <mapsources>
+            <mapsource name='Tableau' />
+          </mapsources>
+          <datasource-dependencies datasource='federated.1anznpt16eu9py1atsqcu15lw6fp'>
+            <column datatype='string' name='[NOC]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Team]' role='dimension' semantic-role='[Country].[Name]' type='nominal' />
+            <column datatype='integer' name='[Total Medals]' role='measure' type='quantitative' />
+            <column-instance column='[NOC]' derivation='None' name='[none:NOC:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Team]' derivation='None' name='[none:Team:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Total Medals]' derivation='Sum' name='[sum:Total Medals:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <computed-sort column='[federated.1anznpt16eu9py1atsqcu15lw6fp].[none:NOC:nk]' direction='DESC' using='[federated.1anznpt16eu9py1atsqcu15lw6fp].[sum:Total Medals:qk]' />
+          <filter class='categorical' column='[federated.1anznpt16eu9py1atsqcu15lw6fp].[none:Team:nk]'>
+            <groupfilter count='10' end='top' function='end' units='records' user:ui-marker='end' user:ui-top-by-field='true'>
+              <groupfilter direction='DESC' expression='SUM([Total Medals])' function='order' user:ui-marker='order'>
+                <groupfilter function='level-members' level='[none:Team:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+              </groupfilter>
+            </groupfilter>
+          </filter>
+          <natural-sort column='[federated.1anznpt16eu9py1atsqcu15lw6fp].[none:Team:nk]' direction='DESC' />
+          <slices>
+            <column>[federated.1anznpt16eu9py1atsqcu15lw6fp].[none:Team:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='height' field='[federated.1anznpt16eu9py1atsqcu15lw6fp].[sum:Total Medals:qk]' value='155' />
+          </style-rule>
+          <style-rule element='cell'>
+            <format attr='height' field='[federated.1anznpt16eu9py1atsqcu15lw6fp].[none:NOC:nk]' value='12' />
+          </style-rule>
+          <style-rule element='label'>
+            <format attr='font-size' field='[federated.1anznpt16eu9py1atsqcu15lw6fp].[none:NOC:nk]' value='3' />
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='font-size' value='5' />
+            <format attr='display-field-labels' scope='rows' value='false' />
+          </style-rule>
+          <style-rule element='title'>
+            <format attr='font-size' value='8' />
+          </style-rule>
+          <style-rule element='map'>
+            <format attr='washout' value='0.0' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+            <encodings>
+              <lod column='[federated.1anznpt16eu9py1atsqcu15lw6fp].[none:Team:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-color' value='#b6992d' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minheight' value='-1' />
+                <format attr='maxheight' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.1anznpt16eu9py1atsqcu15lw6fp].[none:NOC:nk]</rows>
+        <cols>[federated.1anznpt16eu9py1atsqcu15lw6fp].[sum:Total Medals:qk]</cols>
+      </table>
+      <simple-id uuid='{7E4AE0ED-8B27-4E01-9969-7584D79BEA01}' />
+    </worksheet>
+    <worksheet name='Top 10 Gold'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run fontalignment='1'>&lt;Sheet Name&gt;</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='1988.2016 (olympics 1988)' name='federated.1anznpt16eu9py1atsqcu15lw6fp' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1anznpt16eu9py1atsqcu15lw6fp'>
+            <column datatype='integer' name='[Gold]' role='measure' type='quantitative' />
+            <column datatype='string' name='[Name]' role='dimension' type='nominal' />
+            <column-instance column='[Name]' derivation='None' name='[none:Name:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Gold]' derivation='Sum' name='[sum:Gold:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1anznpt16eu9py1atsqcu15lw6fp].[none:Name:nk]'>
+            <groupfilter count='10' end='top' function='end' units='records' user:ui-marker='end' user:ui-top-by-field='true'>
+              <groupfilter direction='DESC' expression='SUM([Gold])' function='order' user:ui-marker='order'>
+                <groupfilter function='level-members' level='[none:Name:nk]' user:ui-manual-selection='true' user:ui-manual-selection-all-when-empty='true' user:ui-manual-selection-is-empty='true' user:ui-marker='enumerate' />
+              </groupfilter>
+            </groupfilter>
+          </filter>
+          <computed-sort column='[federated.1anznpt16eu9py1atsqcu15lw6fp].[none:Name:nk]' direction='DESC' using='[federated.1anznpt16eu9py1atsqcu15lw6fp].[sum:Gold:qk]' />
+          <slices>
+            <column>[federated.1anznpt16eu9py1atsqcu15lw6fp].[none:Name:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='header'>
+            <format attr='width' field='[federated.1anznpt16eu9py1atsqcu15lw6fp].[none:Name:nk]' value='288' />
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='font-size' value='6' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-color' value='#ffff00' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.1anznpt16eu9py1atsqcu15lw6fp].[sum:Gold:qk]</rows>
+        <cols>[federated.1anznpt16eu9py1atsqcu15lw6fp].[none:Name:nk]</cols>
+      </table>
+      <simple-id uuid='{99C2F69C-2DA5-476E-A96B-5972D2E93D97}' />
+    </worksheet>
+    <worksheet name='Top 10 Medal Count By Event'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run fontalignment='1'>&lt;Sheet Name&gt;</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='1988.2016 (olympics 1988)' name='federated.1anznpt16eu9py1atsqcu15lw6fp' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1anznpt16eu9py1atsqcu15lw6fp'>
+            <column datatype='integer' name='[Bronze]' role='measure' type='quantitative' />
+            <column datatype='string' name='[Event]' role='dimension' type='nominal'>
+              <aliases>
+                <alias key='&quot;Basketball Men&apos;s Basketball&quot;' value='Men&apos;s Basketball' />
+                <alias key='&quot;Football Men&apos;s Football&quot;' value='Men&apos;s Football' />
+                <alias key='&quot;Football Women&apos;s Football&quot;' value=' Women&apos;s Football' />
+                <alias key='&quot;Handball Men&apos;s Handball&quot;' value=' Men&apos;s Handball' />
+                <alias key='&quot;Handball Women&apos;s Handball&quot;' value='Women&apos;s Handball' />
+                <alias key='&quot;Hockey Men&apos;s Hockey&quot;' value='Field Hockey Men&apos;s' />
+                <alias key='&quot;Hockey Women&apos;s Hockey&quot;' value=' Women&apos;s Hockey' />
+                <alias key='&quot;Ice Hockey Men&apos;s Ice Hockey&quot;' value='Ice Hockey Men&apos;s' />
+                <alias key='&quot;Ice Hockey Women&apos;s Ice Hockey&quot;' value='Women&apos;s Ice Hockey' />
+                <alias key='&quot;Volleyball Men&apos;s Volleyball&quot;' value='Men&apos;s Volleyball' />
+                <alias key='&quot;Water Polo Men&apos;s Water Polo&quot;' value=' Men&apos;s Water Polo' />
+              </aliases>
+            </column>
+            <column datatype='integer' name='[Gold]' role='measure' type='quantitative' />
+            <column datatype='string' name='[Season]' role='dimension' type='nominal' />
+            <column datatype='integer' name='[Silver]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Total Medals]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Year]' role='dimension' type='quantitative' />
+            <column-instance column='[Event]' derivation='None' name='[none:Event:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Season]' derivation='None' name='[none:Season:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Year]' derivation='None' name='[none:Year:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Bronze]' derivation='Sum' name='[sum:Bronze:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Gold]' derivation='Sum' name='[sum:Gold:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Silver]' derivation='Sum' name='[sum:Silver:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Total Medals]' derivation='Sum' name='[sum:Total Medals:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1anznpt16eu9py1atsqcu15lw6fp].[:Measure Names]'>
+            <groupfilter function='union' user:op='manual'>
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1anznpt16eu9py1atsqcu15lw6fp].[sum:Gold:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1anznpt16eu9py1atsqcu15lw6fp].[sum:Silver:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1anznpt16eu9py1atsqcu15lw6fp].[sum:Bronze:qk]&quot;' />
+            </groupfilter>
+          </filter>
+          <manual-sort column='[federated.1anznpt16eu9py1atsqcu15lw6fp].[:Measure Names]' direction='ASC'>
+            <dictionary>
+              <bucket>&quot;[federated.1anznpt16eu9py1atsqcu15lw6fp].[sum:Gold:qk]&quot;</bucket>
+              <bucket>&quot;[federated.1anznpt16eu9py1atsqcu15lw6fp].[sum:Silver:qk]&quot;</bucket>
+              <bucket>&quot;[federated.1anznpt16eu9py1atsqcu15lw6fp].[sum:Bronze:qk]&quot;</bucket>
+            </dictionary>
+          </manual-sort>
+          <filter class='categorical' column='[federated.1anznpt16eu9py1atsqcu15lw6fp].[none:Event:nk]'>
+            <groupfilter count='10' end='top' function='end' units='records' user:ui-marker='end' user:ui-top-by-field='true'>
+              <groupfilter direction='DESC' expression='SUM([Total Medals])' function='order' user:ui-marker='order'>
+                <groupfilter function='level-members' level='[none:Event:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+              </groupfilter>
+            </groupfilter>
+          </filter>
+          <computed-sort column='[federated.1anznpt16eu9py1atsqcu15lw6fp].[none:Event:nk]' direction='DESC' using='[federated.1anznpt16eu9py1atsqcu15lw6fp].[sum:Total Medals:qk]' />
+          <filter class='categorical' column='[federated.1anznpt16eu9py1atsqcu15lw6fp].[none:Season:nk]'>
+            <groupfilter function='union' user:ui-domain='relevant' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+              <groupfilter function='member' level='[none:Season:nk]' member='&quot;Summer&quot;' />
+              <groupfilter function='member' level='[none:Season:nk]' member='&quot;Winter&quot;' />
+            </groupfilter>
+          </filter>
+          <filter class='quantitative' column='[federated.1anznpt16eu9py1atsqcu15lw6fp].[none:Year:qk]' included-values='in-range'>
+            <min>1988</min>
+            <max>2016</max>
+          </filter>
+          <slices>
+            <column>[federated.1anznpt16eu9py1atsqcu15lw6fp].[none:Year:qk]</column>
+            <column>[federated.1anznpt16eu9py1atsqcu15lw6fp].[none:Event:nk]</column>
+            <column>[federated.1anznpt16eu9py1atsqcu15lw6fp].[none:Season:nk]</column>
+            <column>[federated.1anznpt16eu9py1atsqcu15lw6fp].[:Measure Names]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='width' field='[federated.1anznpt16eu9py1atsqcu15lw6fp].[none:Event:nk]' value='228' />
+            <format attr='font-size' data-class='subtotal' scope='cols' value='12' />
+          </style-rule>
+          <style-rule element='header'>
+            <format attr='width' field='[federated.1anznpt16eu9py1atsqcu15lw6fp].[none:Event:nk]' value='328' />
+          </style-rule>
+          <style-rule element='label'>
+            <format attr='text-orientation' field='[federated.1anznpt16eu9py1atsqcu15lw6fp].[none:Event:nk]' value='-90' />
+            <format attr='font-size' scope='cols' value='12' />
+            <format attr='font-size' field='[federated.1anznpt16eu9py1atsqcu15lw6fp].[none:Event:nk]' value='9' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane id='1' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+            <encodings>
+              <color column='[federated.1anznpt16eu9py1atsqcu15lw6fp].[:Measure Names]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-transparency' value='255' />
+                <format attr='mark-color' value='#aaaa00' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.1anznpt16eu9py1atsqcu15lw6fp].[Multiple Values]</rows>
+        <cols>[federated.1anznpt16eu9py1atsqcu15lw6fp].[none:Event:nk]</cols>
+      </table>
+      <simple-id uuid='{A1AC1AB0-8CFE-4ED3-99CC-0CC178835E97}' />
+    </worksheet>
+    <worksheet name='Top 10 Silver'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run fontalignment='1'>&lt;Sheet Name&gt;</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='1988.2016 (olympics 1988)' name='federated.1anznpt16eu9py1atsqcu15lw6fp' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1anznpt16eu9py1atsqcu15lw6fp'>
+            <column datatype='string' name='[Name]' role='dimension' type='nominal' />
+            <column datatype='integer' name='[Silver]' role='measure' type='quantitative' />
+            <column-instance column='[Name]' derivation='None' name='[none:Name:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Silver]' derivation='Sum' name='[sum:Silver:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1anznpt16eu9py1atsqcu15lw6fp].[none:Name:nk]'>
+            <groupfilter count='10' end='top' function='end' units='records' user:ui-marker='end' user:ui-top-by-field='true'>
+              <groupfilter direction='DESC' expression='SUM([Silver])' function='order' user:ui-marker='order'>
+                <groupfilter function='level-members' level='[none:Name:nk]' user:ui-manual-selection='true' user:ui-manual-selection-all-when-empty='true' user:ui-manual-selection-is-empty='true' user:ui-marker='enumerate' />
+              </groupfilter>
+            </groupfilter>
+          </filter>
+          <computed-sort column='[federated.1anznpt16eu9py1atsqcu15lw6fp].[none:Name:nk]' direction='DESC' using='[federated.1anznpt16eu9py1atsqcu15lw6fp].[sum:Silver:qk]' />
+          <slices>
+            <column>[federated.1anznpt16eu9py1atsqcu15lw6fp].[none:Name:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='header'>
+            <format attr='width' field='[federated.1anznpt16eu9py1atsqcu15lw6fp].[none:Name:nk]' value='288' />
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='font-size' value='6' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-color' value='#d4d4d4' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.1anznpt16eu9py1atsqcu15lw6fp].[sum:Silver:qk]</rows>
+        <cols>[federated.1anznpt16eu9py1atsqcu15lw6fp].[none:Name:nk]</cols>
+      </table>
+      <simple-id uuid='{1C6A7A80-A916-4151-A314-71371DE33514}' />
+    </worksheet>
+  </worksheets>
+  <dashboards>
+    <dashboard _.fcp.AccessibleZoneTabOrder.true...enable-sort-zone-taborder='true' name='# of Athlete by Event'>
+      <style />
+      <size maxheight='768' maxwidth='1366' minheight='768' minwidth='1366' preset-index='0' sizing-mode='fixed' />
+      <zones>
+        <zone h='45573' id='3' name='Top 10 Athlete Count by Event' w='80381' x='-73' y='3646' />
+        <zone h='51042' id='4' name='Bottom 10 Athlete Count by Event' w='81698' x='73' y='48438' />
+        <zone h='33333' id='13' name='Heaviest Weight' show-title='false' w='19107' x='80381' y='9115' />
+        <zone h='35026' id='23' name='Lightest Weight ' show-title='false' w='18302' x='81918' y='56771' />
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='1150' minheight='1150' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='51' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='97916' id='50' param='vert' type-v2='layout-flow' w='98828' x='586' y='1042'>
+                <zone fixed-size='280' h='45573' id='3' is-fixed='true' name='Top 10 Athlete Count by Event' w='80381' x='-73' y='3646'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='256' h='33333' id='13' is-fixed='true' name='Heaviest Weight' show-title='false' w='19107' x='80381' y='9115'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='51042' id='4' is-fixed='true' name='Bottom 10 Athlete Count by Event' w='81698' x='73' y='48438'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='269' h='35026' id='23' is-fixed='true' name='Lightest Weight ' show-title='false' w='18302' x='81918' y='56771'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{374B2E4B-CE18-4240-8E6B-8D7CF7C6978C}' />
+    </dashboard>
+    <dashboard _.fcp.AccessibleZoneTabOrder.true...enable-sort-zone-taborder='true' name='Map And Coutry Medal Count'>
+      <style />
+      <size maxheight='768' maxwidth='1366' minheight='768' minwidth='1366' preset-index='0' sizing-mode='fixed' />
+      <zones>
+        <zone h='100000' id='4' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone h='97916' id='7' param='horz' type-v2='layout-flow' w='98828' x='586' y='1042'>
+            <zone fixed-size='818' h='97916' id='6' is-fixed='true' param='vert' type-v2='layout-flow' w='98828' x='586' y='1042'>
+              <zone h='67056' id='12' name='Olympic Medals from 1988-2016' w='98828' x='586' y='1042'>
+                <layout-cache minheight='281' minwidth='202' type-h='scalable' type-w='scalable' />
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone fixed-size='229' h='30860' id='13' is-fixed='true' name='Olympic Medals from 1988-2016' pane-specification-id='0' param='[federated.1anznpt16eu9py1atsqcu15lw6fp].[sum:Total Medals:qk]' type-v2='color' w='98828' x='586' y='68098'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+            </zone>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+        <zone h='43359' id='16' name='Top 10 Countries by Medal Count' w='99195' x='293' y='74349' />
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='700' minheight='700' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='68' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='97916' id='67' param='vert' type-v2='layout-flow' w='98828' x='586' y='1042'>
+                <zone fixed-size='280' h='67056' id='12' is-fixed='true' name='Olympic Medals from 1988-2016' w='98828' x='586' y='1042'>
+                  <layout-cache minheight='281' minwidth='202' type-h='scalable' type-w='scalable' />
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='229' h='30860' id='13' name='Olympic Medals from 1988-2016' pane-specification-id='0' param='[federated.1anznpt16eu9py1atsqcu15lw6fp].[sum:Total Medals:qk]' type-v2='color' w='98828' x='586' y='68098'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='43359' id='16' is-fixed='true' name='Top 10 Countries by Medal Count' w='99195' x='293' y='74349'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{DD06E7E2-EB6E-4E27-B2EB-ED2BBA6FC123}' />
+    </dashboard>
+    <dashboard _.fcp.AccessibleZoneTabOrder.true...enable-sort-zone-taborder='true' name='Sport and Gender Medal Count'>
+      <style />
+      <size maxheight='768' maxwidth='1366' minheight='768' minwidth='1366' preset-index='0' sizing-mode='fixed' />
+      <zones>
+        <zone h='81901' id='1' name='Male to Female Medal Count' w='19180' x='65447' y='17057' />
+        <zone h='88542' id='3' name='Top 10 Medal Count By Event' w='62958' x='805' y='10807' />
+        <zone h='14063' id='2' name='Male to Female Medal Count' pane-specification-id='0' param='[federated.1anznpt16eu9py1atsqcu15lw6fp].[:Measure Names]' type-v2='color' w='13982' x='49927' y='25781' />
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='700' minheight='700' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='47' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='97916' id='46' param='vert' type-v2='layout-flow' w='98828' x='586' y='1042'>
+                <zone fixed-size='280' h='88542' id='3' is-fixed='true' name='Top 10 Medal Count By Event' w='62958' x='805' y='10807'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='81901' id='1' is-fixed='true' name='Male to Female Medal Count' w='19180' x='65447' y='17057'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='14063' id='2' name='Male to Female Medal Count' pane-specification-id='0' param='[federated.1anznpt16eu9py1atsqcu15lw6fp].[:Measure Names]' type-v2='color' w='13982' x='49927' y='25781'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{97048D28-1101-4AAB-BA50-BBF82540991B}' />
+    </dashboard>
+    <dashboard _.fcp.AccessibleZoneTabOrder.true...enable-sort-zone-taborder='true' name='Top 10 Medals'>
+      <style />
+      <size maxheight='768' maxwidth='1366' minheight='768' minwidth='1366' preset-index='0' sizing-mode='fixed' />
+      <zones>
+        <zone h='100000' id='14' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone h='97916' id='17' param='vert' type-v2='layout-flow' w='98828' x='586' y='1042'>
+            <zone h='97916' id='15' type-v2='layout-basic' w='98828' x='586' y='1042' />
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+        <zone h='93229' id='3' name='Top 10 Gold' w='37701' x='62006' y='5729' />
+        <zone h='94661' id='4' name='Top 10 Silver' w='33309' x='28331' y='4557' />
+        <zone h='94792' id='5' name='Top 10 Bronze' w='27599' x='439' y='4948' />
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='900' minheight='900' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='31' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='97916' id='30' param='vert' type-v2='layout-flow' w='98828' x='586' y='1042'>
+                <zone fixed-size='280' h='94661' id='4' is-fixed='true' name='Top 10 Silver' w='33309' x='28331' y='4557'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='94792' id='5' is-fixed='true' name='Top 10 Bronze' w='27599' x='439' y='4948'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='93229' id='3' is-fixed='true' name='Top 10 Gold' w='37701' x='62006' y='5729'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{F7B45A42-1B35-48DC-8D1A-3F291C8CD751}' />
+    </dashboard>
+  </dashboards>
+  <windows source-height='30'>
+    <window class='worksheet' name='Olympic Medals from 1988-2016'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='106'>
+            <card pane-specification-id='0' param='[federated.1anznpt16eu9py1atsqcu15lw6fp].[sum:Total Medals:qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <floating-toolbar-visibility value='1' />
+        <default-map-tool-selection tool='1' />
+      </viewpoint>
+      <simple-id uuid='{1DBF09C1-5199-4906-B032-5B8EF8CD0F64}' />
+    </window>
+    <window class='worksheet' name='Top 10 Countries by Medal Count'>
+      <cards>
+        <edge name='left'>
+          <strip size='106'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='20'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='fit-width' />
+      </viewpoint>
+      <simple-id uuid='{CD73AC21-3088-4BB9-898B-E0180FEFAE3D}' />
+    </window>
+    <window class='worksheet' name='Top 10 Medal Count By Event'>
+      <cards>
+        <edge name='left'>
+          <strip size='200'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+            <card type='measures' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='20'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='200'>
+            <card pane-specification-id='1' param='[federated.1anznpt16eu9py1atsqcu15lw6fp].[:Measure Names]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='fit-width' />
+      </viewpoint>
+      <simple-id uuid='{2297BE98-1E80-4F07-A628-1E9AA14B853E}' />
+    </window>
+    <window class='worksheet' name='Male to Female Medal Count'>
+      <cards>
+        <edge name='left'>
+          <strip size='200'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+            <card type='measures' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='20'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='106'>
+            <card pane-specification-id='0' param='[federated.1anznpt16eu9py1atsqcu15lw6fp].[:Measure Names]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{13ABDC58-3CE0-4C44-87C5-6DF67C2E7D79}' />
+    </window>
+    <window class='worksheet' name='Top 10 Athlete Count by Event'>
+      <cards>
+        <edge name='left'>
+          <strip size='106'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='20'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{167DE0AF-4BEF-405A-B3EC-C1B389A70CD5}' />
+    </window>
+    <window class='worksheet' name='Bottom 10 Athlete Count by Event'>
+      <cards>
+        <edge name='left'>
+          <strip size='106'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='20'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{52E6CF98-6C16-41D7-ABEE-3BA7756C4DB7}' />
+    </window>
+    <window class='worksheet' name='Heaviest Weight'>
+      <cards>
+        <edge name='left'>
+          <strip size='300'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='20'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+      </viewpoint>
+      <simple-id uuid='{DDC834E6-AB3A-426D-9670-02188B683AED}' />
+    </window>
+    <window class='worksheet' name='Lightest Weight '>
+      <cards>
+        <edge name='left'>
+          <strip size='300'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='20'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+      </viewpoint>
+      <simple-id uuid='{7FDAE7DD-7C97-41AC-AACF-8E9F05BD879B}' />
+    </window>
+    <window class='worksheet' name='Top 10 Gold'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{0E24B7E8-24CE-4113-AB00-7A447FE54CCE}' />
+    </window>
+    <window class='worksheet' name='Top 10 Silver'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{ED2F8FB6-655D-44B1-AD5D-F3A7FE77C324}' />
+    </window>
+    <window class='worksheet' name='Top 10 Bronze'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{15E30C90-E31D-43DE-8614-FA549BBEABC7}' />
+    </window>
+    <window class='dashboard' name='Map And Coutry Medal Count'>
+      <viewpoints>
+        <viewpoint name='Olympic Medals from 1988-2016'>
+          <zoom type='entire-view' />
+          <floating-toolbar-visibility value='1' />
+        </viewpoint>
+        <viewpoint name='Top 10 Countries by Medal Count'>
+          <zoom type='fit-width' />
+        </viewpoint>
+      </viewpoints>
+      <active id='-1' />
+      <simple-id uuid='{592F78D2-29A3-4ABB-90B9-10F93192F9AB}' />
+    </window>
+    <window class='dashboard' name='Sport and Gender Medal Count'>
+      <viewpoints>
+        <viewpoint name='Male to Female Medal Count'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Top 10 Medal Count By Event'>
+          <zoom type='entire-view' />
+        </viewpoint>
+      </viewpoints>
+      <active id='-1' />
+      <simple-id uuid='{7A73C85A-5FB0-4999-BC5A-39D249A7ABDC}' />
+    </window>
+    <window class='dashboard' name='# of Athlete by Event'>
+      <viewpoints>
+        <viewpoint name='Bottom 10 Athlete Count by Event' />
+        <viewpoint name='Heaviest Weight'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Lightest Weight '>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Top 10 Athlete Count by Event' />
+      </viewpoints>
+      <active id='-1' />
+      <simple-id uuid='{D92C7667-9137-461A-ACE7-D2A8DD097A38}' />
+    </window>
+    <window class='dashboard' maximized='true' name='Top 10 Medals'>
+      <viewpoints>
+        <viewpoint name='Top 10 Bronze'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Top 10 Gold'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Top 10 Silver'>
+          <zoom type='entire-view' />
+        </viewpoint>
+      </viewpoints>
+      <active id='-1' />
+      <simple-id uuid='{B313EE47-694B-4DFD-9214-645C76D5CC25}' />
+    </window>
+    <window class='worksheet' name='Sheet 12'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{A4372D2D-6245-41B2-BDFD-A81FF60298C1}' />
+    </window>
+  </windows>
+</workbook>
